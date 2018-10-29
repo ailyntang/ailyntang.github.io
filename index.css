@@ -1,0 +1,255 @@
+/*  This is the design I modelled my site from:
+    https://wp.nkdev.info/snow/#demos
+
+    STUFF I WILL LIVE WITH
+    - Hover zone is really large. Clickable area is correct, but hover is too big.
+    - Hamburger nav does nothing right now
+    - Doesn't lock at a minimum width
+*/
+
+/*********************************************/
+/*                   Global                  */
+/*********************************************/
+:root {
+  --myGrey: rgb(246 246 246);
+  --projectTileSize: 350px;
+}
+
+body {
+  font-family: Verdana;
+  background: var(--myGrey);
+  margin: 0;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin: 0px 0px 15px 0px;
+}
+
+#logo {
+  color: black;
+  font-family: "Oleo Script";
+  font-size: 2em;
+  margin-left: 30px;
+}
+/*********************************************/
+/*                   Navbar                  */
+/*********************************************/
+#navbar {
+  height: 80px;
+  width: 100%;
+  background: white;
+  display: grid;
+  align-items: center; /* vertical alignment */
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+  top: 0;
+  z-index: 5; /* 5 is the highest number used here */
+}
+
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center; /*Horizontal alignment*/ 
+}
+
+#navbar li {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#navbar a {
+  text-decoration: none; /* Remove underline */
+  color: grey;
+}
+
+#nav-hamburger {
+  display: none;
+}
+
+
+/*********************************************/
+/*                  Welcome                  */
+/*********************************************/
+
+#welcome-section {
+  display: grid;
+  height: 100vh;
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/1301903/pexels-photo-1301903.jpeg?cs=srgb&dl=dawn-daylight-desktop-wallpaper-1301903.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto; /* width then height*/
+  background-color: var(--myGrey);
+  background-position: center;
+}
+
+#welcome-text {
+  color: white;
+  margin-top: 40vh;
+}
+
+
+/*********************************************/
+/*                 Projects                  */
+/*********************************************/
+
+/*
+  Overlay text over image on hover
+  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
+
+  Responsive grid images
+  https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df
+
+*/
+
+#projects {
+  text-align: center;
+  margin: 0px 60px 0px 60px;
+}
+
+/* Ensure the section is not hidden by the nav bar */
+#projects:before {
+  content: "";
+  display: block;
+  height: 90px;
+  margin: -90px 0 0;
+}
+
+#project-tiles {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(var(--projectTileSize), 1fr)); /* Make # of columns responsive*/
+  grid-gap: 30px;
+  z-index: 0; /* Set relative to navbar, index must be >=0 for hover to work */
+}
+
+.project-img {
+  width: var(--projectTileSize);  
+  height: var(--projectTileSize);
+  object-fit: cover; /* Crop image instead of stretching*/
+}
+
+/* Center overlay */
+.project-tile {
+  display: grid;
+  justify-items: center;
+  position: relative; /* Allows for overlay positioning */
+} 
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: var(--projectTileSize);
+  height: var(--projectTileSize);
+  background: black;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.project-tile:hover .overlay {
+  opacity: 0.9;
+}
+
+.overlay-text {
+  color: white;
+  font-family: Georgia;
+  font-size: 26px;
+  margin: 150px 60px 0px 60px;
+}
+
+/*********************************************/
+/*                 Contact                   */
+/*********************************************/
+#contact {
+  margin: 0px 60px 60px 60px;
+}
+
+#contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  align-items: start;
+  justify-items: center;
+}
+
+#contact p {
+  color: grey;
+}
+
+.contact-link {
+  color: black;  
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: grey;
+  font-weight: normal;
+}
+
+#contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 3fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px; 
+  width: 100%;
+}
+
+#contact-form input {
+  border: none; 
+  text-indent: 10px;
+}
+
+#firstName, #lastName, #email {
+  height: 40px;
+}
+
+#email{
+  grid-column: 1/3;
+}
+
+#message {
+  grid-column: 1/3;
+}
+
+#submit {
+  grid-column: 2/3;
+  background: black;
+  color: white;
+}
+
+
+
+/*********************************************/
+/*            Small screens                  */
+/*********************************************/
+@media screen and (max-width: 600px) {
+  
+  /* Hides the navbar text and displays the hamburger instead. 
+  Right now the hamburger doesn't do anything onclick.
+  I need to update the javascript function. */
+  #navbar ul, li{
+    display: none; 
+  }
+  
+  #nav-hamburger {
+    display: grid;
+    justify-self: end;
+    margin-right: 30px;
+  }
+  
+  #welcome-text {
+    font-size: 10px;
+  }
+  
+}
