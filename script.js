@@ -48,8 +48,89 @@ var Project = function (_React$Component) {
 
 ;
 
-var Portfolio = function (_React$Component2) {
-  _inherits(Portfolio, _React$Component2);
+var Contact = function (_React$Component2) {
+  _inherits(Contact, _React$Component2);
+
+  function Contact() {
+    _classCallCheck(this, Contact);
+
+    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
+  }
+
+  _createClass(Contact, [{
+    key: 'render',
+    value: function render() {
+      return React.createElement(
+        'div',
+        { id: 'contact' },
+        React.createElement(
+          'h1',
+          null,
+          'Contact'
+        ),
+        React.createElement(
+          'div',
+          { id: 'contact-container' },
+          React.createElement(
+            'div',
+            { id: 'contact-links' },
+            React.createElement(
+              'p',
+              null,
+              'Would you like to chat? Please feel free to get in touch. I look forward to speaking with you soon!'
+            ),
+            React.createElement(
+              'div',
+              { className: 'contact-link' },
+              'GitHub:  ',
+              React.createElement(
+                'a',
+                { id: 'profile-link', href: 'https://github.com/ailyntang', target: '_blank' },
+                'https://github.com/ailyntang'
+              )
+            ),
+            React.createElement(
+              'div',
+              { className: 'contact-link' },
+              'CodePen:  ',
+              React.createElement(
+                'a',
+                { href: 'https://codepen.io/ailyntang/', target: '_blank' },
+                'https://codepen.io/ailyntang/'
+              )
+            ),
+            React.createElement(
+              'div',
+              { className: 'contact-link' },
+              'Medium:  ',
+              React.createElement(
+                'a',
+                { href: 'https://medium.com/@CoderLyn', target: '_blank' },
+                'https://medium.com/@CoderLyn'
+              )
+            )
+          ),
+          React.createElement(
+            'form',
+            { id: 'contact-form' },
+            React.createElement('input', { id: 'firstName', type: 'text', placeholder: 'Your First Name' }),
+            React.createElement('input', { id: 'lastName', type: 'text', placeholder: 'Your Last Name' }),
+            React.createElement('input', { id: 'email', type: 'email', placeholder: 'Your Email' }),
+            React.createElement('input', { id: 'message', type: 'text', placeholder: 'Your Message' }),
+            React.createElement('input', { id: 'submit', type: 'submit', value: 'SEND MESSAGE' })
+          )
+        )
+      );
+    }
+  }]);
+
+  return Contact;
+}(React.Component);
+
+;
+
+var Portfolio = function (_React$Component3) {
+  _inherits(Portfolio, _React$Component3);
 
   function Portfolio(props) {
     _classCallCheck(this, Portfolio);

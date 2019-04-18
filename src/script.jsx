@@ -19,6 +19,35 @@ class Project extends React.Component {
   }
 };
 
+class Contact extends React.Component {
+  render() {
+    return(
+      <div id='contact'>
+        <h1>Contact</h1>
+    
+        <div id="contact-container">
+          <div id="contact-links">
+            <p>Would you like to chat? Please feel free to get in touch. I look forward to speaking with you soon!</p>
+        
+            <div className="contact-link">GitHub:  <a id="profile-link" href="https://github.com/ailyntang" target="_blank">https://github.com/ailyntang</a></div>
+            <div className="contact-link">CodePen:  <a href="https://codepen.io/ailyntang/" target="_blank">https://codepen.io/ailyntang/</a></div>
+            <div className="contact-link">Medium:  <a href="https://medium.com/@CoderLyn" target="_blank">https://medium.com/@CoderLyn</a></div>
+          </div>
+    
+          <form id="contact-form">
+            <input id="firstName" type="text" placeholder="Your First Name" />
+            <input id="lastName" type="text" placeholder="Your Last Name" />
+            <input id="email" type="email" placeholder="Your Email" />
+            <input id="message" type="text" placeholder="Your Message" />
+            <input id="submit" type="submit" value="SEND MESSAGE" />
+          </form>
+      
+        </div>
+      </div>
+    );
+  }
+};
+
 class Portfolio extends React.Component {
   constructor(props) {
     super(props);
