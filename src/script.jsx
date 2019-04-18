@@ -68,6 +68,12 @@ class Portfolio extends React.Component {
         imageText='Framed photo of a quote'
         overlayTextLine1='Quote of the day'
         overlayTextLine2='(React)'/>
+
+        <Project
+        projectLink='https://codepen.io/ailyntang/full/PBXQOY/'
+        imageLink='https://images.pexels.com/photos/270238/pexels-photo-270238.png?cs=srgb&dl=application-blur-business-270238.jpg&fm=jpg'
+        imageText='Magnifying glass over a German document'
+        overlayTextLine1='Technical Documentation'/>
       </div>
     );
   }
