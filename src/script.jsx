@@ -80,6 +80,12 @@ class Portfolio extends React.Component {
         imageLink='https://images.pexels.com/photos/263532/pexels-photo-263532.jpeg?cs=srgb&dl=abandoned-antique-architecture-263532.jpg&fm=jpg'
         imageText='Letterbox with a feedback sign'
         overlayTextLine1='Survey'/>
+
+        <Project
+        projectLink='https://codepen.io/ailyntang/full/WyKEEB/'
+        imageLink='https://images.pexels.com/photos/374006/pexels-photo-374006.jpeg?cs=srgb&dl=business-coffee-computer-374006.jpg&fm=jpg'
+        imageText='Someone working on a laptop at a desk'
+        overlayTextLine1='Product Landing Page'/>
       </div>
     );
   }
