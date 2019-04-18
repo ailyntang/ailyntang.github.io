@@ -70,6 +70,12 @@ var Portfolio = function (_React$Component2) {
           overlayTextLine1: 'Pomodoro Timer',
           overlayTextLine2: '(React)' }),
         React.createElement(Project, {
+          projectLink: 'https://codepen.io/ailyntang/full/aaGeoz',
+          imageLink: 'https://images.pexels.com/photos/56876/queen-cup-honeycomb-honey-bee-new-queen-rearing-compartment-56876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+          imageText: 'Bees in a beehive',
+          overlayTextLine1: 'Create a hexagon mural',
+          overlayTextLine2: '(Javascript)' }),
+        React.createElement(Project, {
           projectLink: 'https://codepen.io/ailyntang/full/XoqWmw',
           imageLink: 'https://images.unsplash.com/photo-1506555191898-a76bacf004ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80',
           imageText: 'Calculator',
