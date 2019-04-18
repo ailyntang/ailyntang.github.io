@@ -1,3 +1,24 @@
+class Navbar extends React.Component {
+  render() {
+    return (
+      <div>
+        <nav id="navbar">
+          <div id="logo">Coder Lyn</div>
+          
+          <ul id="nav-text">
+            <li><a href="#welcome-section">Welcome</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          
+          <a href="#" id="nav-hamburger" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+          
+        </nav>
+      </div>
+    );
+  }
+};
+
 class Project extends React.Component {
   constructor(props) {
     super(props);
@@ -56,6 +77,7 @@ class Portfolio extends React.Component {
   render() {
     return(
       <div>
+        <Navbar />
         
         <div id='welcome-section'>
           <div id='welcome-text'>
