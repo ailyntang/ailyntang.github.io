@@ -115,6 +115,8 @@ class Portfolio extends React.Component {
         imageLink='https://images.pexels.com/photos/374006/pexels-photo-374006.jpeg?cs=srgb&dl=business-coffee-computer-374006.jpg&fm=jpg'
         imageText='Someone working on a laptop at a desk'
         overlayTextLine1='Product Landing Page'/>
+
+        <Contact />
       </div>
     );
   }
