@@ -47,6 +47,13 @@ class Portfolio extends React.Component {
         imageText='Camera previewer'
         overlayTextLine1='Markdown Previewer'
         overlayTextLine2='(React)'/>
+
+        <Project
+        projectLink='https://codepen.io/ailyntang/full/oJeLdr'
+        imageLink='https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
+        imageText='Drums'
+        overlayTextLine1='Drum Machine'
+        overlayTextLine2='(React)'/>
       </div>
     );
   }
