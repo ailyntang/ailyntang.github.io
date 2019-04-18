@@ -33,6 +33,13 @@ class Portfolio extends React.Component {
         imageText='Alarm clock'
         overlayTextLine1='Pomodoro Timer'
         overlayTextLine2='(React)'/>
+
+        <Project
+        projectLink='https://codepen.io/ailyntang/full/XoqWmw'
+        imageLink='https://images.unsplash.com/photo-1506555191898-a76bacf004ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'
+        imageText='Calculator'
+        overlayTextLine1='Calculator'
+        overlayTextLine2='(React)'/>
       </div>
     );
   }
