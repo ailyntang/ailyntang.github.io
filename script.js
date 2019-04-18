@@ -103,7 +103,12 @@ var Portfolio = function (_React$Component2) {
           projectLink: 'https://codepen.io/ailyntang/full/PBXQOY/',
           imageLink: 'https://images.pexels.com/photos/270238/pexels-photo-270238.png?cs=srgb&dl=application-blur-business-270238.jpg&fm=jpg',
           imageText: 'Magnifying glass over a German document',
-          overlayTextLine1: 'Technical Documentation' })
+          overlayTextLine1: 'Technical Documentation' }),
+        React.createElement(Project, {
+          projectLink: 'https://codepen.io/ailyntang/full/JZrVbj/',
+          imageLink: 'https://images.pexels.com/photos/263532/pexels-photo-263532.jpeg?cs=srgb&dl=abandoned-antique-architecture-263532.jpg&fm=jpg',
+          imageText: 'Letterbox with a feedback sign',
+          overlayTextLine1: 'Survey' })
       );
     }
   }]);
