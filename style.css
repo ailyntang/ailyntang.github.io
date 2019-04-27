@@ -11,13 +11,11 @@
 /*                   Global                  */
 /*********************************************/
 :root {
-  --myGrey: rgb(246 246 246);
   --projectTileSize: 350px;
 }
 
 body {
   font-family: Verdana;
-  background: var(--myGrey);
   margin: 0;
 }
 
