@@ -77,27 +77,6 @@ p {
 
 
 /*********************************************/
-/*                  Welcome                  */
-/*********************************************/
-
-#welcome-section {
-  display: grid;
-  height: 100vh;
-  text-align: center;
-  background-image: url("https://images.pexels.com/photos/1301903/pexels-photo-1301903.jpeg?cs=srgb&dl=dawn-daylight-desktop-wallpaper-1301903.jpg&fm=jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto; /* width then height*/
-  background-color: var(--myGrey);
-  background-position: center;
-}
-
-#welcome-text {
-  color: white;
-  margin-top: 40vh;
-}
-
-
-/*********************************************/
 /*                 Projects                  */
 /*********************************************/
 

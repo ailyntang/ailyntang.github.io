@@ -37,15 +37,6 @@ var Nav = function (_React$Component) {
               null,
               React.createElement(
                 "a",
-                { href: "#welcome-section" },
-                "Welcome"
-              )
-            ),
-            React.createElement(
-              "li",
-              null,
-              React.createElement(
-                "a",
                 { href: "#projects" },
                 "Projects"
               )
@@ -214,28 +205,6 @@ var Portfolio = function (_React$Component4) {
         "div",
         null,
         React.createElement(Nav, null),
-        React.createElement(
-          "div",
-          { id: "welcome-section" },
-          React.createElement(
-            "div",
-            { id: "welcome-text" },
-            React.createElement(
-              "h1",
-              null,
-              "Welcome to Coder Lyn's Portfolio"
-            ),
-            React.createElement(
-              "p",
-              null,
-              "I'm an aspiring developer, learning on my own.",
-              React.createElement("br", null),
-              "Below is a collection of my work.",
-              React.createElement("br", null),
-              "Please feel free to reach out if you'd like my help with something, or you'd like to be a mentor."
-            )
-          )
-        ),
         React.createElement(
           "div",
           { id: "projects" },

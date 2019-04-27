@@ -6,7 +6,6 @@ class Nav extends React.Component {
           <div id="logo">Coder Lyn</div>
           
           <ul id="nav-text">
-            <li><a href="#welcome-section">Welcome</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -78,16 +77,6 @@ class Portfolio extends React.Component {
     return(
       <div>
         <Nav />
-        
-        <div id='welcome-section'>
-          <div id='welcome-text'>
-            <h1>Welcome to Coder Lyn's Portfolio</h1>
-            <p>I'm an aspiring developer, learning on my own.<br/>
-              Below is a collection of my work.<br/>
-              Please feel free to reach out if you'd like my help with something, or you'd like to be a mentor.
-            </p>
-          </div>
-        </div>
 
         <div id='projects'>
           <h1>Projects</h1>
