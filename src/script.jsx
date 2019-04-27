@@ -1,4 +1,4 @@
-class Navbar extends React.Component {
+class Nav extends React.Component {
   render() {
     return (
       <div>
@@ -77,7 +77,7 @@ class Portfolio extends React.Component {
   render() {
     return(
       <div>
-        <Navbar />
+        <Nav />
         
         <div id='welcome-section'>
           <div id='welcome-text'>

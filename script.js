@@ -6,16 +6,16 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Navbar = function (_React$Component) {
-  _inherits(Navbar, _React$Component);
+var Nav = function (_React$Component) {
+  _inherits(Nav, _React$Component);
 
-  function Navbar() {
-    _classCallCheck(this, Navbar);
+  function Nav() {
+    _classCallCheck(this, Nav);
 
-    return _possibleConstructorReturn(this, (Navbar.__proto__ || Object.getPrototypeOf(Navbar)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (Nav.__proto__ || Object.getPrototypeOf(Nav)).apply(this, arguments));
   }
 
-  _createClass(Navbar, [{
+  _createClass(Nav, [{
     key: "render",
     value: function render() {
       return React.createElement(
@@ -70,7 +70,7 @@ var Navbar = function (_React$Component) {
     }
   }]);
 
-  return Navbar;
+  return Nav;
 }(React.Component);
 
 ;
@@ -213,7 +213,7 @@ var Portfolio = function (_React$Component4) {
       return React.createElement(
         "div",
         null,
-        React.createElement(Navbar, null),
+        React.createElement(Nav, null),
         React.createElement(
           "div",
           { id: "welcome-section" },
