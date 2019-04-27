@@ -209,11 +209,6 @@ var Portfolio = function (_React$Component4) {
           "div",
           { id: "projects" },
           React.createElement(
-            "h1",
-            null,
-            "Projects"
-          ),
-          React.createElement(
             "div",
             { id: "project-tiles" },
             React.createElement(Project, {
