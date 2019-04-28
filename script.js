@@ -267,6 +267,7 @@ var Portfolio = function (_React$Component4) {
         "div",
         null,
         React.createElement(Nav, null),
+        React.createElement(About, null),
         React.createElement(
           "div",
           { id: "projects" },

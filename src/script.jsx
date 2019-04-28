@@ -91,6 +91,8 @@ class Portfolio extends React.Component {
       <div>
         <Nav />
 
+        <About />
+
         <div id='projects'>
 
           <div id='project-tiles'>
