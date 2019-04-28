@@ -242,7 +242,6 @@ var Portfolio = function (_React$Component2) {
         "div",
         null,
         React.createElement(Nav, null),
-        React.createElement(About, null),
         React.createElement(
           "div",
           { id: "projects" },
@@ -302,6 +301,7 @@ var Portfolio = function (_React$Component2) {
               overlayTextLine1: "Product Landing Page" })
           )
         ),
+        React.createElement(About, null),
         React.createElement(Contact, null)
       );
     }

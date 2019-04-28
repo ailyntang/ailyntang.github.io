@@ -88,8 +88,6 @@ class Portfolio extends React.Component {
       <div>
         <Nav />
 
-        <About />
-
         <div id='projects'>
 
           <div id='project-tiles'>
@@ -154,6 +152,8 @@ class Portfolio extends React.Component {
             overlayTextLine1='Product Landing Page'/>
           </div>
         </div>
+
+        <About />
 
         <Contact />
       </div>
