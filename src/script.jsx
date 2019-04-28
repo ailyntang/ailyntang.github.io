@@ -18,6 +18,19 @@ class Nav extends React.Component {
   }
 };
 
+function About() {  
+  return (
+    <div id='about'>
+      <h1>About me</h1>
+      <p>Hi there! I'm a strategist by day and a code newbie by night. I've dabbled in Ruby, Rails, Swift and am now focusing on Javascript and React.</p>
+      <p>I am learning so much along the way. A big thank you to <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>. The structured lessons and the open ended projects are amazing. And a shout out to <a href="https://exercism.io" target="_blank">exercism.io</a>. The mentors there are incredible and continue to teach me a lot.</p>
+      <p>Currently I'm practicing atomic commits on <a href="https://github.com/ailyntang/ailyntang.github.io" target="_blank">GitHub</a> and learning coding conventions with the help of ESLint and the <a href="https://github.com/airbnb/javascript" target="_blank">Airbnb style guides</a>.</p>
+      <p>Everything you see here is self taught. Please <a href='mailto:ailyntang@gmail.com?subject=Portfolio%20Feedback' target='_blank'>reach out</a> if you have any feedback. I'd love to hear it!</p>
+    </div>
+  );
+}
+
+
 class Project extends React.Component {
   constructor(props) {
     super(props);
