@@ -226,16 +226,16 @@ function Contact() {
   );
 };
 
-var Portfolio = function (_React$Component2) {
-  _inherits(Portfolio, _React$Component2);
+var App = function (_React$Component2) {
+  _inherits(App, _React$Component2);
 
-  function Portfolio(props) {
-    _classCallCheck(this, Portfolio);
+  function App(props) {
+    _classCallCheck(this, App);
 
-    return _possibleConstructorReturn(this, (Portfolio.__proto__ || Object.getPrototypeOf(Portfolio)).call(this, props));
+    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
   }
 
-  _createClass(Portfolio, [{
+  _createClass(App, [{
     key: "render",
     value: function render() {
       return React.createElement(
@@ -307,9 +307,9 @@ var Portfolio = function (_React$Component2) {
     }
   }]);
 
-  return Portfolio;
+  return App;
 }(React.Component);
 
 ;
 
-ReactDOM.render(React.createElement(Portfolio, null), document.getElementById('app'));
+ReactDOM.render(React.createElement(App, null), document.getElementById('app'));

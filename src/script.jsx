@@ -78,7 +78,7 @@ function Contact() {
   );
 };
 
-class Portfolio extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -161,4 +161,4 @@ class Portfolio extends React.Component {
   }
 };
 
-ReactDOM.render(<Portfolio />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
