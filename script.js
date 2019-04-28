@@ -37,6 +37,15 @@ var Nav = function (_React$Component) {
               null,
               React.createElement(
                 "a",
+                { href: "#about" },
+                "About"
+              )
+            ),
+            React.createElement(
+              "li",
+              null,
+              React.createElement(
+                "a",
                 { href: "#projects" },
                 "Projects"
               )
