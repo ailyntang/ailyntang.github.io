@@ -6,74 +6,57 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Nav = function (_React$Component) {
-  _inherits(Nav, _React$Component);
-
-  function Nav() {
-    _classCallCheck(this, Nav);
-
-    return _possibleConstructorReturn(this, (Nav.__proto__ || Object.getPrototypeOf(Nav)).apply(this, arguments));
-  }
-
-  _createClass(Nav, [{
-    key: "render",
-    value: function render() {
-      return React.createElement(
+function Nav() {
+  return React.createElement(
+    "div",
+    null,
+    React.createElement(
+      "nav",
+      { id: "navbar" },
+      React.createElement(
         "div",
-        null,
+        { id: "logo" },
+        "Coder Lyn"
+      ),
+      React.createElement(
+        "ul",
+        { id: "nav-text" },
         React.createElement(
-          "nav",
-          { id: "navbar" },
-          React.createElement(
-            "div",
-            { id: "logo" },
-            "Coder Lyn"
-          ),
-          React.createElement(
-            "ul",
-            { id: "nav-text" },
-            React.createElement(
-              "li",
-              null,
-              React.createElement(
-                "a",
-                { href: "#about" },
-                "About"
-              )
-            ),
-            React.createElement(
-              "li",
-              null,
-              React.createElement(
-                "a",
-                { href: "#projects" },
-                "Projects"
-              )
-            ),
-            React.createElement(
-              "li",
-              null,
-              React.createElement(
-                "a",
-                { href: "#contact" },
-                "Contact"
-              )
-            )
-          ),
+          "li",
+          null,
           React.createElement(
             "a",
-            { href: "#", id: "nav-hamburger", onclick: "myFunction()" },
-            React.createElement("i", { "class": "fa fa-bars" })
+            { href: "#about" },
+            "About"
+          )
+        ),
+        React.createElement(
+          "li",
+          null,
+          React.createElement(
+            "a",
+            { href: "#projects" },
+            "Projects"
+          )
+        ),
+        React.createElement(
+          "li",
+          null,
+          React.createElement(
+            "a",
+            { href: "#contact" },
+            "Contact"
           )
         )
-      );
-    }
-  }]);
-
-  return Nav;
-}(React.Component);
-
-;
+      ),
+      React.createElement(
+        "a",
+        { href: "#", id: "nav-hamburger", onclick: "myFunction()" },
+        React.createElement("i", { "class": "fa fa-bars" })
+      )
+    )
+  );
+};
 
 function About() {
   return React.createElement(
@@ -137,8 +120,8 @@ function About() {
   );
 }
 
-var Project = function (_React$Component2) {
-  _inherits(Project, _React$Component2);
+var Project = function (_React$Component) {
+  _inherits(Project, _React$Component);
 
   function Project(props) {
     _classCallCheck(this, Project);
@@ -179,8 +162,8 @@ var Project = function (_React$Component2) {
 
 ;
 
-var Contact = function (_React$Component3) {
-  _inherits(Contact, _React$Component3);
+var Contact = function (_React$Component2) {
+  _inherits(Contact, _React$Component2);
 
   function Contact() {
     _classCallCheck(this, Contact);
@@ -260,8 +243,8 @@ var Contact = function (_React$Component3) {
 
 ;
 
-var Portfolio = function (_React$Component4) {
-  _inherits(Portfolio, _React$Component4);
+var Portfolio = function (_React$Component3) {
+  _inherits(Portfolio, _React$Component3);
 
   function Portfolio(props) {
     _classCallCheck(this, Portfolio);

@@ -1,22 +1,20 @@
-class Nav extends React.Component {
-  render() {
-    return (
-      <div>
-        <nav id="navbar">
-          <div id="logo">Coder Lyn</div>
-          
-          <ul id="nav-text">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          
-          <a href="#" id="nav-hamburger" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-          
-        </nav>
-      </div>
-    );
-  }
+function Nav() {
+  return (
+    <div>
+      <nav id="navbar">
+        <div id="logo">Coder Lyn</div>
+        
+        <ul id="nav-text">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <a href="#" id="nav-hamburger" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        
+      </nav>
+    </div>
+  );
 };
 
 function About() {  
