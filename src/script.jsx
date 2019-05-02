@@ -51,6 +51,15 @@ class ProjectTile extends React.Component {
   }
 };
 
+class Project extends React.Component {
+  render() {
+    return(
+      <div>
+      </div>
+    );
+  };
+};
+
 function Contact() {
   return(
     <div id='contact'>
@@ -154,6 +163,8 @@ class App extends React.Component {
         </div>
 
         <About />
+
+        <Project />
 
         <Contact />
       </div>

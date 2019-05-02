@@ -162,6 +162,27 @@ var ProjectTile = function (_React$Component) {
 
 ;
 
+var Project = function (_React$Component2) {
+  _inherits(Project, _React$Component2);
+
+  function Project() {
+    _classCallCheck(this, Project);
+
+    return _possibleConstructorReturn(this, (Project.__proto__ || Object.getPrototypeOf(Project)).apply(this, arguments));
+  }
+
+  _createClass(Project, [{
+    key: "render",
+    value: function render() {
+      return React.createElement("div", null);
+    }
+  }]);
+
+  return Project;
+}(React.Component);
+
+;
+
 function Contact() {
   return React.createElement(
     "div",
@@ -226,8 +247,8 @@ function Contact() {
   );
 };
 
-var App = function (_React$Component2) {
-  _inherits(App, _React$Component2);
+var App = function (_React$Component3) {
+  _inherits(App, _React$Component3);
 
   function App(props) {
     _classCallCheck(this, App);
@@ -302,6 +323,7 @@ var App = function (_React$Component2) {
           )
         ),
         React.createElement(About, null),
+        React.createElement(Project, null),
         React.createElement(Contact, null)
       );
     }
