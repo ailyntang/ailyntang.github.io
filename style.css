@@ -87,19 +87,6 @@ p {
 
 */
 
-#projects {
-  text-align: center;
-  margin: 0px 60px 0px 60px;
-}
-
-/* Ensure the section is not hidden by the nav bar */
-#projects:before {
-  content: "";
-  display: block;
-  height: 90px;
-  margin: -90px 0 0;
-}
-
 #project-tiles {
   position: relative;
   display: grid;
