@@ -358,7 +358,7 @@ var App = function (_React$Component3) {
           imageLink: "https://images.unsplash.com/photo-1498522271744-cdd435c13f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1954&q=80",
           projectTitle: "Pomodoro Timer",
           briefDescription: "React / UI",
-          longDescription: "My take on the classic 25 minute Pomodoro Timer, with different images for each timer state. Originally built in CodePen for a freeCodeCamp project. Now hosted on GitHub.",
+          longDescription: "My take on the classic 25 minute Pomodoro Timer, with different images for each timer state. Originally built in CodePen for a freeCodeCamp project.",
           githubLink: "https://github.com/ailyntang/pomodoro" }),
         React.createElement(Contact, null)
       );
