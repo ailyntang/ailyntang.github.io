@@ -183,7 +183,7 @@ var Project = function (_React$Component2) {
           React.createElement("img", { className: "largeImg", src: this.props.imageLink })
         ),
         React.createElement(
-          "h1",
+          "div",
           { className: "projectTitle" },
           this.props.projectTitle
         ),
