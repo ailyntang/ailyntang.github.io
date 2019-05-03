@@ -176,7 +176,7 @@ var Project = function (_React$Component2) {
     value: function render() {
       return React.createElement(
         "div",
-        { className: "projectSummary" },
+        { className: this.props.cssStyle },
         React.createElement(
           "a",
           { href: this.props.websiteLink, target: "_blank" },
