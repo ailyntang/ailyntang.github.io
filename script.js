@@ -174,41 +174,7 @@ var Project = function (_React$Component2) {
   _createClass(Project, [{
     key: "render",
     value: function render() {
-      return React.createElement(
-        "div",
-        { className: "projectSummary" },
-        React.createElement(
-          "a",
-          { href: this.props.websiteLink, target: "_blank" },
-          React.createElement("img", { className: "largeImg", src: this.props.imageLink })
-        ),
-        React.createElement(
-          "h1",
-          { className: "projectTitle" },
-          this.props.projectTitle
-        ),
-        React.createElement(
-          "h2",
-          { className: "briefDescription" },
-          this.props.briefDescription
-        ),
-        React.createElement(
-          "p",
-          { className: "longDescription" },
-          this.props.longDescription
-        ),
-        React.createElement(
-          "p",
-          { className: "github" },
-          "View my code on ",
-          React.createElement(
-            "a",
-            { className: "githubLink", href: this.props.githubLink, target: "_blank" },
-            "GitHub"
-          ),
-          "."
-        )
-      );
+      return React.createElement("div", null);
     }
   }]);
 
@@ -353,14 +319,7 @@ var App = function (_React$Component3) {
             overlayTextLine1: "Product Landing Page" })
         ),
         React.createElement(About, null),
-        React.createElement(Project, {
-          websiteLink: "https://ailyntang.github.io/pomodoro/",
-          imageLink: "https://images.unsplash.com/photo-1498522271744-cdd435c13f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1954&q=80",
-          projectTitle: "Pomodoro Timer",
-          briefDescription: "React / UI",
-          longDescription: "My take on the classic 25 minute Pomodoro Timer, with different images for each timer state. Originally built in CodePen for a freeCodeCamp project. Now hosted on GitHub.",
-          githubLink: "https://github.com/ailyntang/pomodoro"
-        }),
+        React.createElement(Project, null),
         React.createElement(Contact, null)
       );
     }
