@@ -174,7 +174,41 @@ var Project = function (_React$Component2) {
   _createClass(Project, [{
     key: "render",
     value: function render() {
-      return React.createElement("div", null);
+      return React.createElement(
+        "div",
+        { className: "projectSummary" },
+        React.createElement(
+          "a",
+          { href: this.props.websiteLink, target: "_blank" },
+          React.createElement("img", { className: "largeImg", src: this.props.imageLink })
+        ),
+        React.createElement(
+          "h1",
+          { className: "projectTitle" },
+          this.props.projectTitle
+        ),
+        React.createElement(
+          "h2",
+          { className: "briefDescription" },
+          this.props.briefDescription
+        ),
+        React.createElement(
+          "p",
+          { className: "longDescription" },
+          this.props.longDescription
+        ),
+        React.createElement(
+          "p",
+          { className: "github" },
+          "View my code on ",
+          React.createElement(
+            "a",
+            { className: "githubLink", href: this.props.githubLink, target: "_blank" },
+            "GitHub"
+          ),
+          "."
+        )
+      );
     }
   }]);
 

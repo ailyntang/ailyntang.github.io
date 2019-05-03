@@ -54,7 +54,12 @@ class ProjectTile extends React.Component {
 class Project extends React.Component {
   render() {
     return(
-      <div>
+      <div className='projectSummary'>
+        <a href={this.props.websiteLink} target='_blank'><img className='largeImg' src={this.props.imageLink} /></a>
+        <h1 className='projectTitle'>{this.props.projectTitle}</h1>
+        <h2 className='briefDescription'>{this.props.briefDescription}</h2>
+        <p className='longDescription'>{this.props.longDescription}</p>
+        <p className='github'>View my code on <a className='githubLink' href={this.props.githubLink} target='_blank'>GitHub</a>.</p>
       </div>
     );
   };
