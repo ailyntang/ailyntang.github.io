@@ -353,14 +353,18 @@ var App = function (_React$Component3) {
             overlayTextLine1: "Product Landing Page" })
         ),
         React.createElement(About, null),
-        React.createElement(Project, {
-          cssStyle: "projectStyle1",
-          websiteLink: "https://ailyntang.github.io/pomodoro/",
-          imageLink: "https://images.unsplash.com/photo-1498522271744-cdd435c13f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1954&q=80",
-          projectTitle: "Pomodoro Timer",
-          briefDescription: "React / UI",
-          longDescription: "My take on the classic 25 minute Pomodoro Timer, with different images for each timer state. Originally built in CodePen for a freeCodeCamp project.",
-          githubLink: "https://github.com/ailyntang/pomodoro" }),
+        React.createElement(
+          "div",
+          { id: "portfolio" },
+          React.createElement(Project, {
+            cssStyle: "projectStyle1",
+            websiteLink: "https://ailyntang.github.io/pomodoro/",
+            imageLink: "https://drive.google.com/uc?id=1ORD-OvILAw1U3jBOi8ITCSr4PI-rMVS5",
+            projectTitle: "Pomodoro Timer",
+            briefDescription: "React / UI",
+            longDescription: "My take on the classic 25 minute Pomodoro Timer, with different images for each timer state. Originally built in CodePen for a freeCodeCamp project.",
+            githubLink: "https://github.com/ailyntang/pomodoro" })
+        ),
         React.createElement(Contact, null)
       );
     }
