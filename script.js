@@ -188,7 +188,7 @@ var Project = function (_React$Component2) {
           this.props.projectTitle
         ),
         React.createElement(
-          "h2",
+          "div",
           { className: "briefDescription" },
           this.props.briefDescription
         ),

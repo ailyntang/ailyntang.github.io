@@ -56,8 +56,8 @@ class Project extends React.Component {
     return(
       <div className={this.props.cssStyle}>
         <a href={this.props.websiteLink} target='_blank'><img className='largeImg' src={this.props.imageLink} /></a>
-        <h2 className='briefDescription'>{this.props.briefDescription}</h2>
         <div className='projectTitle'>{this.props.projectTitle}</div>
+        <div className='briefDescription'>{this.props.briefDescription}</div>
         <p className='longDescription'>{this.props.longDescription}</p>
         <p className='github'>View my code on <a className='githubLink' href={this.props.githubLink} target='_blank'>GitHub</a>.</p>
       </div>
