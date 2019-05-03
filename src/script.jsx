@@ -167,6 +167,7 @@ class App extends React.Component {
         <About />
 
         <Project 
+        cssStyle='projectStyle1'
         websiteLink='https://ailyntang.github.io/pomodoro/'
         imageLink='https://images.unsplash.com/photo-1498522271744-cdd435c13f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1954&q=80'
         projectTitle='Pomodoro Timer'
