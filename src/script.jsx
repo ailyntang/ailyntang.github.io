@@ -29,6 +29,23 @@ function About() {
   );
 }
 
+function WebsiteMockup() {
+  return (
+    <div className='websiteMockup'>
+      <div className='header'></div>
+      <div className='threeDots'>
+        <div className='dot'></div>
+        <div className='dot'></div>
+        <div className='dot'></div>
+      </div>
+      <div className='hamburger'>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+      </div>
+    </div>
+  );
+}
 
 class ProjectTile extends React.Component {
   constructor(props) {

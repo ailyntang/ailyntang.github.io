@@ -120,6 +120,28 @@ function About() {
   );
 }
 
+function WebsiteMockup() {
+  return React.createElement(
+    "div",
+    { className: "websiteMockup" },
+    React.createElement("div", { className: "header" }),
+    React.createElement(
+      "div",
+      { className: "threeDots" },
+      React.createElement("div", { className: "dot" }),
+      React.createElement("div", { className: "dot" }),
+      React.createElement("div", { className: "dot" })
+    ),
+    React.createElement(
+      "div",
+      { className: "hamburger" },
+      React.createElement("div", { className: "line" }),
+      React.createElement("div", { className: "line" }),
+      React.createElement("div", { className: "line" })
+    )
+  );
+}
+
 var ProjectTile = function (_React$Component) {
   _inherits(ProjectTile, _React$Component);
 
