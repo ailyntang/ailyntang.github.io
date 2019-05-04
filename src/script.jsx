@@ -76,10 +76,12 @@ class Project extends React.Component {
           <WebsiteMockup />
           <a href={this.props.websiteLink} target='_blank'><img className='largeImg' src={this.props.imageLink} /></a>
         </div>
-        <div className='projectTitle'>{this.props.projectTitle}</div>
-        <div className='briefDescription'>{this.props.briefDescription}</div>
-        <p className='longDescription'>{this.props.longDescription}</p>
-        <p className='github'>View my code on <a className='githubLink' href={this.props.githubLink} target='_blank'>GitHub</a>.</p>
+        <div className='projectDescription'>
+          <div className='projectTitle'>{this.props.projectTitle}</div>
+          <div className='briefDescription'>{this.props.briefDescription}</div>
+          <p className='longDescription'>{this.props.longDescription}</p>
+          <p className='github'>View my code on <a className='githubLink' href={this.props.githubLink} target='_blank'>GitHub</a>.</p>
+        </div>
       </div>
     );
   };

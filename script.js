@@ -211,29 +211,33 @@ var Project = function (_React$Component2) {
         ),
         React.createElement(
           "div",
-          { className: "projectTitle" },
-          this.props.projectTitle
-        ),
-        React.createElement(
-          "div",
-          { className: "briefDescription" },
-          this.props.briefDescription
-        ),
-        React.createElement(
-          "p",
-          { className: "longDescription" },
-          this.props.longDescription
-        ),
-        React.createElement(
-          "p",
-          { className: "github" },
-          "View my code on ",
+          { className: "projectDescription" },
           React.createElement(
-            "a",
-            { className: "githubLink", href: this.props.githubLink, target: "_blank" },
-            "GitHub"
+            "div",
+            { className: "projectTitle" },
+            this.props.projectTitle
           ),
-          "."
+          React.createElement(
+            "div",
+            { className: "briefDescription" },
+            this.props.briefDescription
+          ),
+          React.createElement(
+            "p",
+            { className: "longDescription" },
+            this.props.longDescription
+          ),
+          React.createElement(
+            "p",
+            { className: "github" },
+            "View my code on ",
+            React.createElement(
+              "a",
+              { className: "githubLink", href: this.props.githubLink, target: "_blank" },
+              "GitHub"
+            ),
+            "."
+          )
         )
       );
     }
