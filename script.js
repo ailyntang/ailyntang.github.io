@@ -200,9 +200,14 @@ var Project = function (_React$Component2) {
         "div",
         { className: this.props.cssStyle },
         React.createElement(
-          "a",
-          { href: this.props.websiteLink, target: "_blank" },
-          React.createElement("img", { className: "largeImg", src: this.props.imageLink })
+          "div",
+          { className: "mockup" },
+          React.createElement(WebsiteMockup, null),
+          React.createElement(
+            "a",
+            { href: this.props.websiteLink, target: "_blank" },
+            React.createElement("img", { className: "largeImg", src: this.props.imageLink })
+          )
         ),
         React.createElement(
           "div",

@@ -72,7 +72,10 @@ class Project extends React.Component {
   render() {
     return(
       <div className={this.props.cssStyle}>
-        <a href={this.props.websiteLink} target='_blank'><img className='largeImg' src={this.props.imageLink} /></a>
+        <div className='mockup'>
+          <WebsiteMockup />
+          <a href={this.props.websiteLink} target='_blank'><img className='largeImg' src={this.props.imageLink} /></a>
+        </div>
         <div className='projectTitle'>{this.props.projectTitle}</div>
         <div className='briefDescription'>{this.props.briefDescription}</div>
         <p className='longDescription'>{this.props.longDescription}</p>
