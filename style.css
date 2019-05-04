@@ -137,6 +137,11 @@ p {
   margin: 0px 60px 60px 60px;
 }
 
+.mockup {
+  display: flex;
+  justify-content: center;
+}
+
 .websiteMockup {
   position: relative;
   top: 50px;
@@ -176,6 +181,13 @@ p {
   height: 3px;
   width: 15px;
   background: rgb(212, 209, 211);
+}
+
+.largeImg {
+  position: relative;
+  top: 80px;
+  height: 470px;
+  width: 450px;
 }
 
 
