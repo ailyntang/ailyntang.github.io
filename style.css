@@ -137,6 +137,12 @@ p {
   margin: 0px 60px 60px 60px;
 }
 
+.projectStyle1{
+  background: rgb(205, 0, 12);
+  text-align: center;
+  color: #FFFFFF; 
+}
+
 .mockup {
   display: flex;
   justify-content: center;
