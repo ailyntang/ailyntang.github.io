@@ -71,7 +71,7 @@ class ProjectTile extends React.Component {
 class Project extends React.Component {
   render() {
     return(
-      <div className={this.props.cssStyle}>
+      <div className='mainSection' id={this.props.cssStyle}>
         <div className='mockup'>
           <WebsiteMockup />
           <a href={this.props.websiteLink} target='_blank'><img className='largeImg' src={this.props.imageLink} /></a>

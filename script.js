@@ -198,7 +198,7 @@ var Project = function (_React$Component2) {
     value: function render() {
       return React.createElement(
         "div",
-        { className: this.props.cssStyle },
+        { className: "mainSection", id: this.props.cssStyle },
         React.createElement(
           "div",
           { className: "mockup" },
