@@ -100,7 +100,7 @@ p {
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(var(--projectTileSize), 1fr)); /* Make # of columns responsive*/
-  grid-gap: 30px;
+  grid-gap: 20px;
   z-index: 0; /* Set relative to navbar, index must be >=0 for hover to work */
 }
 
