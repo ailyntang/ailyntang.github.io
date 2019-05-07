@@ -114,7 +114,6 @@ p {
 /* Center overlay */
 .project-tile {
   display: grid;
-  
   position: relative; /* Allows for overlay positioning */
 } 
 
