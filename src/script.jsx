@@ -133,7 +133,7 @@ class App extends React.Component {
           overlayTextLine2='(React)'/>
 
           <ProjectTile
-          projectLink='https://codepen.io/ailyntang/full/aaGeoz'
+          projectLink='#projectHexagon'
           imageLink='https://images.pexels.com/photos/56876/queen-cup-honeycomb-honey-bee-new-queen-rearing-compartment-56876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
           imageText='Bees in a beehive'
           overlayTextLine1='Create a hexagon mural'
