@@ -156,6 +156,12 @@ p {
   color: #FFFFFF; 
 }
 
+.projectPortfolio {
+  background: rgb(68, 128, 20);
+  text-align: center;
+  color: #FFFFFF; 
+}
+
 .mockup {
   display: flex;
   justify-content: center;
