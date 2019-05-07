@@ -402,7 +402,15 @@ var App = function (_React$Component3) {
             projectTitle: "Personal Portfolio",
             briefDescription: "React / UI / Git",
             longDescription: "A place to showcase my work. Originally built in HTML, I refactored it to be in React using atomic commits on GitHub. I have a great deal of respect for people who know CSS better than I do. It is hard! There are many CSS elements in my backlog, for when I have a CSS mentor.",
-            githubLink: "https://github.com/ailyntang/ailyntang.github.io" })
+            githubLink: "https://github.com/ailyntang/ailyntang.github.io" }),
+          React.createElement(Project, {
+            cssStyle: "projectHexagon",
+            websiteLink: "https://codepen.io/ailyntang/full/aaGeoz",
+            imageLink: "https://drive.google.com/uc?id=1B9ihrUTPsmUsGQvDW2P5MS2pMOeCzF3E",
+            projectTitle: "Hexagon Blanket",
+            briefDescription: "Javascript",
+            longDescription: "I am crocheting a blanket for a double bed. I have five different colors and was randomly placing them next to each other. This app creates options for this random color selection to finish my blanket. There are lots of things that could be better, but it was a fantastic tool to help me finalise the colors for my blanket."
+          })
         ),
         React.createElement(Contact, null)
       );
