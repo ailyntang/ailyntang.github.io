@@ -162,6 +162,12 @@ p {
   color: #FFFFFF; 
 }
 
+#projectHexagon {
+  background: rgb(250, 227, 121);
+  text-align: center;
+  color: #656565; 
+}
+
 .mockup {
   display: flex;
   justify-content: center;
