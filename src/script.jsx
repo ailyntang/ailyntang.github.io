@@ -70,6 +70,11 @@ class ProjectTile extends React.Component {
 
 class Project extends React.Component {
   render() {
+    let viewCode = '';
+    if (this.props.githubLink) {
+      viewCode = <p className='github'>View my code on <a className='githubLink' href={this.props.githubLink} target='_blank'>GitHub</a>.</p>;
+    }
+
     return(
       <div className='mainSection' id={this.props.cssStyle}>
         <div className='mockup'>
@@ -80,7 +85,7 @@ class Project extends React.Component {
           <div className='projectTitle'>{this.props.projectTitle}</div>
           <div className='briefDescription'>{this.props.briefDescription}</div>
           <p className='longDescription'>{this.props.longDescription}</p>
-          <p className='github'>View my code on <a className='githubLink' href={this.props.githubLink} target='_blank'>GitHub</a>.</p>
+          {viewCode}
         </div>
       </div>
     );

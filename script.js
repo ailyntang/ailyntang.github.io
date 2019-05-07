@@ -196,6 +196,21 @@ var Project = function (_React$Component2) {
   _createClass(Project, [{
     key: "render",
     value: function render() {
+      var viewCode = '';
+      if (this.props.githubLink) {
+        viewCode = React.createElement(
+          "p",
+          { className: "github" },
+          "View my code on ",
+          React.createElement(
+            "a",
+            { className: "githubLink", href: this.props.githubLink, target: "_blank" },
+            "GitHub"
+          ),
+          "."
+        );
+      }
+
       return React.createElement(
         "div",
         { className: "mainSection", id: this.props.cssStyle },
@@ -227,17 +242,7 @@ var Project = function (_React$Component2) {
             { className: "longDescription" },
             this.props.longDescription
           ),
-          React.createElement(
-            "p",
-            { className: "github" },
-            "View my code on ",
-            React.createElement(
-              "a",
-              { className: "githubLink", href: this.props.githubLink, target: "_blank" },
-              "GitHub"
-            ),
-            "."
-          )
+          viewCode
         )
       );
     }
