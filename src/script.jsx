@@ -197,6 +197,14 @@ class App extends React.Component {
           briefDescription='React / UI'
           longDescription='My take on the classic 25 minute Pomodoro Timer, with different images for each timer state. Originally built in CodePen for a freeCodeCamp project.'
           githubLink='https://github.com/ailyntang/pomodoro' />
+          <Project 
+          cssStyle='projectPortfolio'
+          websiteLink='https://ailyntang.github.io'
+          imageLink='https://drive.google.com/uc?id=1B9ihrUTPsmUsGQvDW2P5MS2pMOeCzF3E'
+          projectTitle='Personal Portfolio'
+          briefDescription='React / UI / Git'
+          longDescription='A place to showcase my work. Originally built in HTML, I refactored it to be in React using atomic commits on GitHub. I have a great deal of respect for people who know CSS better than I do. It is hard! There are many CSS elements in my backlog, for when I have a CSS mentor.'
+          githubLink='https://github.com/ailyntang/ailyntang.github.io' />
         </div>
 
         <Contact />
