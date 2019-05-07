@@ -217,6 +217,14 @@ p {
   margin-top: 40px;
 }
 
+.githubLink:link {
+  color: white;
+}
+
+.githubLink:visited {
+  color: white;
+}
+
 /*********************************************/
 /*                 Contact                   */
 /*********************************************/
