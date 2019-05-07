@@ -266,7 +266,7 @@ function Contact() {
         React.createElement(
           "p",
           null,
-          "Would you like to chat? Please feel free to get in touch. I look forward to speaking with you soon!"
+          "Would you like to chat? Please get in touch. I look forward to speaking with you soon!"
         ),
         React.createElement(
           "div",
