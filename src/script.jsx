@@ -19,7 +19,7 @@ function Nav() {
 
 function About() {  
   return (
-    <div id='about'>
+    <div className='mainSection' id='about'>
       <h1>About me</h1>
       <p>Hi there! I'm a strategist by day and a code newbie by night. I've dabbled in Ruby, Rails, Swift and am now focusing on Javascript and React.</p>
       <p>I am learning so much along the way. A big thank you to <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>. The structured lessons and the open ended projects are amazing. And a shout out to <a href="https://exercism.io" target="_blank">exercism.io</a>. The mentors there are incredible and continue to teach me a lot.</p>
@@ -89,7 +89,7 @@ class Project extends React.Component {
 
 function Contact() {
   return(
-    <div id='contact'>
+    <div className='mainSection' id='contact'>
       <h1>Contact</h1>
   
       <div id="contact-container">

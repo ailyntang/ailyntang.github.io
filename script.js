@@ -61,7 +61,7 @@ function Nav() {
 function About() {
   return React.createElement(
     "div",
-    { id: "about" },
+    { className: "mainSection", id: "about" },
     React.createElement(
       "h1",
       null,
@@ -251,7 +251,7 @@ var Project = function (_React$Component2) {
 function Contact() {
   return React.createElement(
     "div",
-    { id: "contact" },
+    { className: "mainSection", id: "contact" },
     React.createElement(
       "h1",
       null,
