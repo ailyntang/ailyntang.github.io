@@ -388,7 +388,7 @@ var App = function (_React$Component3) {
           "div",
           { id: "portfolio" },
           React.createElement(Project, {
-            cssStyle: "projectStyle1",
+            cssStyle: "projectPomodoro",
             websiteLink: "https://ailyntang.github.io/pomodoro/",
             imageLink: "https://drive.google.com/uc?id=19ow_qZ6ay6W-LhAcJ9ZdrYmpabXj2Nn-",
             projectTitle: "Pomodoro Timer",

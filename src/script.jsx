@@ -190,13 +190,14 @@ class App extends React.Component {
 
         <div id='portfolio'>
           <Project 
-          cssStyle='projectStyle1'
+          cssStyle='projectPomodoro'
           websiteLink='https://ailyntang.github.io/pomodoro/'
           imageLink='https://drive.google.com/uc?id=19ow_qZ6ay6W-LhAcJ9ZdrYmpabXj2Nn-'
           projectTitle='Pomodoro Timer'
           briefDescription='React / UI'
           longDescription='My take on the classic 25 minute Pomodoro Timer, with different images for each timer state. Originally built in CodePen for a freeCodeCamp project.'
           githubLink='https://github.com/ailyntang/pomodoro' />
+
           <Project 
           cssStyle='projectPortfolio'
           websiteLink='https://ailyntang.github.io'
