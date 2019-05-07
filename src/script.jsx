@@ -126,7 +126,7 @@ class App extends React.Component {
 
         <div id='project-tiles'>
           <ProjectTile
-          projectLink='https://ailyntang.github.io/pomodoro/'
+          projectLink='#projectPomodoro'
           imageLink='https://images.unsplash.com/37/tEREUy1vSfuSu8LzTop3_IMG_2538.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
           imageText='Alarm clock'
           overlayTextLine1='Pomodoro Timer'
