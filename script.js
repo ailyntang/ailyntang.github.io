@@ -63,59 +63,63 @@ function About() {
     "div",
     { className: "mainSection", id: "about" },
     React.createElement(
-      "h1",
-      null,
-      "About me"
-    ),
-    React.createElement(
-      "p",
-      null,
-      "Hi there! I'm a strategist by day and a code newbie by night. I've dabbled in Ruby, Rails, Swift and am now focusing on Javascript and React."
-    ),
-    React.createElement(
-      "p",
-      null,
-      "I am learning so much along the way. A big thank you to ",
+      "div",
+      { id: "aboutText" },
       React.createElement(
-        "a",
-        { href: "https://www.freecodecamp.org", target: "_blank" },
-        "freeCodeCamp"
+        "h1",
+        null,
+        "About me"
       ),
-      ". The structured lessons and the open ended projects are amazing. And a shout out to ",
       React.createElement(
-        "a",
-        { href: "https://exercism.io", target: "_blank" },
-        "exercism.io"
+        "p",
+        null,
+        "Hi there! I'm a strategist by day and a code newbie by night. I've dabbled in Ruby, Rails, Swift and am now focusing on Javascript and React."
       ),
-      ". The mentors there are incredible and continue to teach me a lot."
-    ),
-    React.createElement(
-      "p",
-      null,
-      "Currently I'm practicing atomic commits on ",
       React.createElement(
-        "a",
-        { href: "https://github.com/ailyntang/ailyntang.github.io", target: "_blank" },
-        "GitHub"
+        "p",
+        null,
+        "I am learning so much along the way. A big thank you to ",
+        React.createElement(
+          "a",
+          { href: "https://www.freecodecamp.org", target: "_blank" },
+          "freeCodeCamp"
+        ),
+        ". The structured lessons and the open ended projects are amazing. And a shout out to ",
+        React.createElement(
+          "a",
+          { href: "https://exercism.io", target: "_blank" },
+          "exercism.io"
+        ),
+        ". The mentors there are incredible and continue to teach me a lot."
       ),
-      " and learning coding conventions with the help of ESLint and the ",
       React.createElement(
-        "a",
-        { href: "https://github.com/airbnb/javascript", target: "_blank" },
-        "Airbnb style guides"
+        "p",
+        null,
+        "Currently I'm practicing atomic commits on ",
+        React.createElement(
+          "a",
+          { href: "https://github.com/ailyntang/ailyntang.github.io", target: "_blank" },
+          "GitHub"
+        ),
+        " and learning coding conventions with the help of ESLint and the ",
+        React.createElement(
+          "a",
+          { href: "https://github.com/airbnb/javascript", target: "_blank" },
+          "Airbnb style guides"
+        ),
+        "."
       ),
-      "."
-    ),
-    React.createElement(
-      "p",
-      null,
-      "Everything you see here is self taught. Please ",
       React.createElement(
-        "a",
-        { href: "mailto:ailyntang@gmail.com?subject=Portfolio%20Feedback", target: "_blank" },
-        "reach out"
-      ),
-      " if you have any feedback. I'd love to hear it!"
+        "p",
+        null,
+        "Everything you see here is self taught. Please ",
+        React.createElement(
+          "a",
+          { href: "mailto:ailyntang@gmail.com?subject=Portfolio%20Feedback", target: "_blank" },
+          "reach out"
+        ),
+        " if you have any feedback. I'd love to hear it!"
+      )
     )
   );
 }
