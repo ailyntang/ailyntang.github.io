@@ -35,7 +35,7 @@ function Nav() {
           null,
           React.createElement(
             "a",
-            { href: "#project-tiles" },
+            { href: "#portfolio" },
             "Projects"
           )
         ),
