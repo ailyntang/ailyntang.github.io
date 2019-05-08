@@ -411,7 +411,7 @@ var App = function (_React$Component3) {
           React.createElement(Project, {
             cssStyle: "projectHexagon",
             websiteLink: "https://codepen.io/ailyntang/full/aaGeoz",
-            imageLink: "https://drive.google.com/uc?id=1B9ihrUTPsmUsGQvDW2P5MS2pMOeCzF3E",
+            imageLink: "https://drive.google.com/uc?id=1ZhjZqBxg6MQ1M5OkqJA7UNh7VVY7_0EV",
             projectTitle: "Hexagon Blanket",
             briefDescription: "Javascript",
             longDescription: "I am crocheting a blanket for a double bed. I have five different colors and was randomly placing them next to each other. This app creates options for this random color selection to finish my blanket. There are lots of things that could be better, but it was a fantastic tool to help me finalise the colors for my blanket."
