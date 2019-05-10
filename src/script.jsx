@@ -106,15 +106,6 @@ function Contact() {
           <div className="contact-link">Medium:  <a href="https://medium.com/@CoderLyn" target="_blank">https://medium.com/@CoderLyn</a></div>
           <div className="contact-link">LinkedIn:  <a href="https://www.linkedin.com/in/ai-lyn-tang-2054b812" target="_blank">https://www.linkedin.com/in/ai-lyn-tang</a></div>
         </div>
-  
-        <form id="contact-form">
-          <input id="firstName" type="text" placeholder="Your First Name" />
-          <input id="lastName" type="text" placeholder="Your Last Name" />
-          <input id="email" type="email" placeholder="Your Email" />
-          <input id="message" type="text" placeholder="Your Message" />
-          <input id="submit" type="submit" value="SEND MESSAGE" />
-        </form>
-    
       </div>
     </div>
   );

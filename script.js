@@ -307,15 +307,6 @@ function Contact() {
             "https://www.linkedin.com/in/ai-lyn-tang"
           )
         )
-      ),
-      React.createElement(
-        "form",
-        { id: "contact-form" },
-        React.createElement("input", { id: "firstName", type: "text", placeholder: "Your First Name" }),
-        React.createElement("input", { id: "lastName", type: "text", placeholder: "Your Last Name" }),
-        React.createElement("input", { id: "email", type: "email", placeholder: "Your Email" }),
-        React.createElement("input", { id: "message", type: "text", placeholder: "Your Message" }),
-        React.createElement("input", { id: "submit", type: "submit", value: "SEND MESSAGE" })
       )
     )
   );
