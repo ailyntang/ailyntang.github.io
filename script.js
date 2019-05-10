@@ -290,11 +290,11 @@ function Contact() {
         React.createElement(
           "div",
           { className: "contact-link" },
-          "CodePen:  ",
+          "Medium:  ",
           React.createElement(
             "a",
-            { href: "https://codepen.io/ailyntang/", target: "_blank" },
-            "https://codepen.io/ailyntang/"
+            { href: "https://medium.com/@CoderLyn", target: "_blank" },
+            "https://medium.com/@CoderLyn"
           )
         ),
         React.createElement(
