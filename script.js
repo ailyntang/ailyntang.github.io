@@ -115,7 +115,7 @@ function About() {
         "Everything you see here is self taught. Please ",
         React.createElement(
           "a",
-          { href: "mailto:ailyntang@gmail.com?subject=Portfolio%20Feedback", target: "_blank" },
+          { href: "#contact" },
           "reach out"
         ),
         " if you have any feedback. I'd love to hear it!"
