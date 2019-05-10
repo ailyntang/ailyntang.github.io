@@ -251,12 +251,6 @@ p {
   margin: 0px 250px 60px 250px;
 }
 
-#contact-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 30px;
-  align-items: start;
-  justify-items: center;
 }
 
 #contact p {
