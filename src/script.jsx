@@ -101,8 +101,7 @@ function Contact() {
   
       <div id="contact-container">
         <div id="contact-links">
-          <p>Would you like to chat? Please get in touch. I look forward to speaking with you soon!</p>
-      
+          <p>Here's where you can find me. Look forward to chatting!</p>
           <div className="contact-link">GitHub:  <a id="profile-link" href="https://github.com/ailyntang" target="_blank">https://github.com/ailyntang</a></div>
           <div className="contact-link">CodePen:  <a href="https://codepen.io/ailyntang/" target="_blank">https://codepen.io/ailyntang/</a></div>
           <div className="contact-link">Medium:  <a href="https://medium.com/@CoderLyn" target="_blank">https://medium.com/@CoderLyn</a></div>
