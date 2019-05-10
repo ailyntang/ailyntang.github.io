@@ -300,11 +300,11 @@ function Contact() {
         React.createElement(
           "div",
           { className: "contact-link" },
-          "Medium:  ",
+          "LinkedIn:  ",
           React.createElement(
             "a",
-            { href: "https://medium.com/@CoderLyn", target: "_blank" },
-            "https://medium.com/@CoderLyn"
+            { href: "https://www.linkedin.com/in/ai-lyn-tang-2054b812", target: "_blank" },
+            "https://www.linkedin.com/in/ai-lyn-tang"
           )
         )
       ),

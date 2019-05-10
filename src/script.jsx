@@ -104,6 +104,7 @@ function Contact() {
           <p>Here's where you can find me. Look forward to chatting!</p>
           <div className="contact-link">GitHub:  <a id="profile-link" href="https://github.com/ailyntang" target="_blank">https://github.com/ailyntang</a></div>
           <div className="contact-link">Medium:  <a href="https://medium.com/@CoderLyn" target="_blank">https://medium.com/@CoderLyn</a></div>
+          <div className="contact-link">LinkedIn:  <a href="https://www.linkedin.com/in/ai-lyn-tang-2054b812" target="_blank">https://www.linkedin.com/in/ai-lyn-tang</a></div>
         </div>
   
         <form id="contact-form">
