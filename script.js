@@ -268,44 +268,40 @@ function Contact() {
     ),
     React.createElement(
       "div",
-      { id: "contact-container" },
+      { id: "contact-links" },
+      React.createElement(
+        "p",
+        null,
+        "Here's where you can find me. Look forward to chatting!"
+      ),
       React.createElement(
         "div",
-        { id: "contact-links" },
+        { className: "contact-link" },
+        "GitHub:  ",
         React.createElement(
-          "p",
-          null,
-          "Here's where you can find me. Look forward to chatting!"
-        ),
+          "a",
+          { id: "profile-link", href: "https://github.com/ailyntang", target: "_blank" },
+          "https://github.com/ailyntang"
+        )
+      ),
+      React.createElement(
+        "div",
+        { className: "contact-link" },
+        "Medium:  ",
         React.createElement(
-          "div",
-          { className: "contact-link" },
-          "GitHub:  ",
-          React.createElement(
-            "a",
-            { id: "profile-link", href: "https://github.com/ailyntang", target: "_blank" },
-            "https://github.com/ailyntang"
-          )
-        ),
+          "a",
+          { href: "https://medium.com/@CoderLyn", target: "_blank" },
+          "https://medium.com/@CoderLyn"
+        )
+      ),
+      React.createElement(
+        "div",
+        { className: "contact-link" },
+        "LinkedIn:  ",
         React.createElement(
-          "div",
-          { className: "contact-link" },
-          "Medium:  ",
-          React.createElement(
-            "a",
-            { href: "https://medium.com/@CoderLyn", target: "_blank" },
-            "https://medium.com/@CoderLyn"
-          )
-        ),
-        React.createElement(
-          "div",
-          { className: "contact-link" },
-          "LinkedIn:  ",
-          React.createElement(
-            "a",
-            { href: "https://www.linkedin.com/in/ai-lyn-tang-2054b812", target: "_blank" },
-            "https://www.linkedin.com/in/ai-lyn-tang"
-          )
+          "a",
+          { href: "https://www.linkedin.com/in/ai-lyn-tang-2054b812", target: "_blank" },
+          "https://www.linkedin.com/in/ai-lyn-tang"
         )
       )
     )
