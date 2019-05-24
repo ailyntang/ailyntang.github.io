@@ -227,6 +227,24 @@ class App extends React.Component {
           />
         </div>
 
+        <div className='mainSection' id='articles'>
+          <h1>Articles</h1>
+          <p>Often I find myself googling the same thing, again and again. Or wishing I remembered how to do something I know I did a few months ago, but can no longer remember how. So I started writing down my thoughts. It began on Google Docs, but I moved it to Medium in case I could help out other code newbies along the way.</p>
+          <p>I'm a writer for Code Like A Girl and a top writer in Women in Tech. If my articles help you, I'd love to <a href='#contact'>hear about it</a>! Below are a few of my articles to give you an idea. For the most recent ones, head over to <a href='https://medium.com/@CoderLyn' target='_blank'>Medium</a>.</p>
+          
+          <Article 
+          imageLink='https://images.unsplash.com/photo-1496867557017-559adb93b339?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80'
+          articleTitle='How to use React outside of CodePen'
+          articleBlurb="I'm just learning React and so far I love it. It's amazing to have more structured HTML code that can use Javascript! Through freeCodeCamp I was used to writing in JSX. On CodePen, I continued doing the same. However what about in the 'real' world?"
+          articleLink='https://code.likeagirl.io/how-to-use-react-outside-of-codepen-98be57b256e6' />
+
+          <Article 
+          imageLink='https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80'
+          articleTitle='How to move from CodePen to GitHub'
+          articleBlurb="I'm just learning React and so far I love it. It's amazing to have more structured HTML code that can use Javascript! Through freeCodeCamp I was used to writing in JSX. On CodePen, I continued doing the same. However what about in the 'real' world?"
+          articleLink='https://code.likeagirl.io/how-to-move-from-codepen-to-github-44a65511048e' />
+        </div>
+
         <Contact />
       </div>
     );
