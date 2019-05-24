@@ -7,6 +7,7 @@ function Nav() {
         <ul id="nav-text">
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#articles">Articles</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         

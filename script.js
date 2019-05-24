@@ -44,6 +44,15 @@ function Nav() {
           null,
           React.createElement(
             "a",
+            { href: "#articles" },
+            "Articles"
+          )
+        ),
+        React.createElement(
+          "li",
+          null,
+          React.createElement(
+            "a",
             { href: "#contact" },
             "Contact"
           )
