@@ -257,6 +257,50 @@ var Project = function (_React$Component2) {
 
 ;
 
+var Article = function (_React$Component3) {
+  _inherits(Article, _React$Component3);
+
+  function Article() {
+    _classCallCheck(this, Article);
+
+    return _possibleConstructorReturn(this, (Article.__proto__ || Object.getPrototypeOf(Article)).apply(this, arguments));
+  }
+
+  _createClass(Article, [{
+    key: "render",
+    value: function render() {
+      return React.createElement(
+        "div",
+        { className: "article" },
+        React.createElement("img", { className: "articleImage", src: this.props.imageLink }),
+        React.createElement(
+          "div",
+          { className: "articleText" },
+          React.createElement(
+            "div",
+            { className: "articleTitle" },
+            this.props.articleTitle
+          ),
+          React.createElement(
+            "div",
+            { className: "articleBlurb" },
+            this.props.articleBlurb
+          ),
+          React.createElement(
+            "a",
+            { href: this.props.articleLink, target: "_blank" },
+            "Read more.."
+          )
+        )
+      );
+    }
+  }]);
+
+  return Article;
+}(React.Component);
+
+;
+
 function Contact() {
   return React.createElement(
     "div",

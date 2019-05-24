@@ -94,6 +94,21 @@ class Project extends React.Component {
   };
 };
 
+class Article extends React.Component {
+  render() {
+    return(
+      <div className='article'>
+        <img className='articleImage' src={this.props.imageLink} />
+        <div className='articleText'>
+          <div className='articleTitle'>{this.props.articleTitle}</div>
+          <div className='articleBlurb'>{this.props.articleBlurb}</div>
+          <a href={this.props.articleLink} target='_blank'>Read more..</a>
+        </div>
+      </div>
+    );
+  };
+};
+
 function Contact() {
   return(
     <div className='mainSection' id='contact'>
