@@ -385,13 +385,25 @@ var App = function (_React$Component4) {
             imageLink: "https://images.unsplash.com/37/tEREUy1vSfuSu8LzTop3_IMG_2538.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
             imageText: "Alarm clock",
             overlayTextLine1: "Pomodoro Timer",
-            overlayTextLine2: "(React)" }),
+            overlayTextLine2: "(React, design)" }),
           React.createElement(ProjectTile, {
             projectLink: "#projectHexagon",
             imageLink: "https://images.pexels.com/photos/56876/queen-cup-honeycomb-honey-bee-new-queen-rearing-compartment-56876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             imageText: "Bees in a beehive",
             overlayTextLine1: "Create a hexagon mural",
             overlayTextLine2: "(Javascript)" }),
+          React.createElement(ProjectTile, {
+            projectLink: "https://ailyntang.github.io/d3Charts/",
+            imageLink: "https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+            imageText: "Hand drawn chart",
+            overlayTextLine1: "d3 charts",
+            overlayTextLine2: "(d3, API, git)" }),
+          React.createElement(ProjectTile, {
+            projectLink: "https://codepen.io/ailyntang/full/jQxLjJ/",
+            imageLink: "https://images.pexels.com/photos/688668/pexels-photo-688668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            imageText: "Framed photo of a quote",
+            overlayTextLine1: "Quote of the day",
+            overlayTextLine2: "(React, design)" }),
           React.createElement(ProjectTile, {
             projectLink: "https://codepen.io/ailyntang/full/XoqWmw",
             imageLink: "https://images.unsplash.com/photo-1506555191898-a76bacf004ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
@@ -409,12 +421,6 @@ var App = function (_React$Component4) {
             imageLink: "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
             imageText: "Drums",
             overlayTextLine1: "Drum Machine",
-            overlayTextLine2: "(React)" }),
-          React.createElement(ProjectTile, {
-            projectLink: "https://codepen.io/ailyntang/full/jQxLjJ/",
-            imageLink: "https://images.pexels.com/photos/688668/pexels-photo-688668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-            imageText: "Framed photo of a quote",
-            overlayTextLine1: "Quote of the day",
             overlayTextLine2: "(React)" }),
           React.createElement(ProjectTile, {
             projectLink: "https://codepen.io/ailyntang/full/PBXQOY/",

@@ -10,7 +10,7 @@ Please reach out and say hi :)
 
 ## Backlog
 ###CSS: Nav bar
-* Now there are four elements, need to update this.
+* Now there are four elements - need to update the styling
 * Also the hamburger logo does nothing when the screen gets too small. There's a huge responsive piece I need to deal with for this portfolio.
 
 ###CSS: about links
@@ -18,6 +18,12 @@ Style these - right now it's the default and it's pretty ugly.
 
 ###CSS: Article links
 Style these - right now it's the default and it's pretty ugly.
+
+###CSS: logo in top left
+The font doesn't come through correctly. Need to look into why this is.
+
+###CSS: background for either article section or contact
+One of these should have a different colored background to differentiate between the sections.
 
 ### HTML: thumbnail links
 Right now the links are a mix. Some point to further down the page; others point to CodePen.

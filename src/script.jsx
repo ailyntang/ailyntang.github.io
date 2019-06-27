@@ -141,7 +141,7 @@ class App extends React.Component {
           imageLink='https://images.unsplash.com/37/tEREUy1vSfuSu8LzTop3_IMG_2538.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
           imageText='Alarm clock'
           overlayTextLine1='Pomodoro Timer'
-          overlayTextLine2='(React)'/>
+          overlayTextLine2='(React, design)'/>
 
           <ProjectTile
           projectLink='#projectHexagon'
@@ -149,6 +149,20 @@ class App extends React.Component {
           imageText='Bees in a beehive'
           overlayTextLine1='Create a hexagon mural'
           overlayTextLine2='(Javascript)'/>
+
+          <ProjectTile
+          projectLink='https://ailyntang.github.io/d3Charts/'
+          imageLink='https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80'
+          imageText='Hand drawn chart'
+          overlayTextLine1='d3 charts'
+          overlayTextLine2='(d3, API, git)'/>
+
+          <ProjectTile
+          projectLink='https://codepen.io/ailyntang/full/jQxLjJ/'
+          imageLink='https://images.pexels.com/photos/688668/pexels-photo-688668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+          imageText='Framed photo of a quote'
+          overlayTextLine1='Quote of the day'
+          overlayTextLine2='(React, design)'/>
 
           <ProjectTile
           projectLink='https://codepen.io/ailyntang/full/XoqWmw'
@@ -169,13 +183,6 @@ class App extends React.Component {
           imageLink='https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
           imageText='Drums'
           overlayTextLine1='Drum Machine'
-          overlayTextLine2='(React)'/>
-
-          <ProjectTile
-          projectLink='https://codepen.io/ailyntang/full/jQxLjJ/'
-          imageLink='https://images.pexels.com/photos/688668/pexels-photo-688668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-          imageText='Framed photo of a quote'
-          overlayTextLine1='Quote of the day'
           overlayTextLine2='(React)'/>
 
           <ProjectTile
