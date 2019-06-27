@@ -151,6 +151,13 @@ class App extends React.Component {
           overlayTextLine2='(Javascript)'/>
 
           <ProjectTile
+          projectLink='https://ailyntang.github.io/d3Charts/'
+          imageLink='https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80'
+          imageText='Hand drawn chart'
+          overlayTextLine1='d3 charts'
+          overlayTextLine2='(d3, API, git)'/>
+
+          <ProjectTile
           projectLink='https://codepen.io/ailyntang/full/jQxLjJ/'
           imageLink='https://images.pexels.com/photos/688668/pexels-photo-688668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
           imageText='Framed photo of a quote'
