@@ -393,6 +393,12 @@ var App = function (_React$Component4) {
             overlayTextLine1: "Create a hexagon mural",
             overlayTextLine2: "(Javascript)" }),
           React.createElement(ProjectTile, {
+            projectLink: "https://codepen.io/ailyntang/full/jQxLjJ/",
+            imageLink: "https://images.pexels.com/photos/688668/pexels-photo-688668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            imageText: "Framed photo of a quote",
+            overlayTextLine1: "Quote of the day",
+            overlayTextLine2: "(React, design)" }),
+          React.createElement(ProjectTile, {
             projectLink: "https://codepen.io/ailyntang/full/XoqWmw",
             imageLink: "https://images.unsplash.com/photo-1506555191898-a76bacf004ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
             imageText: "Calculator",
@@ -409,12 +415,6 @@ var App = function (_React$Component4) {
             imageLink: "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
             imageText: "Drums",
             overlayTextLine1: "Drum Machine",
-            overlayTextLine2: "(React)" }),
-          React.createElement(ProjectTile, {
-            projectLink: "https://codepen.io/ailyntang/full/jQxLjJ/",
-            imageLink: "https://images.pexels.com/photos/688668/pexels-photo-688668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-            imageText: "Framed photo of a quote",
-            overlayTextLine1: "Quote of the day",
             overlayTextLine2: "(React)" }),
           React.createElement(ProjectTile, {
             projectLink: "https://codepen.io/ailyntang/full/PBXQOY/",
