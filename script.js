@@ -385,7 +385,7 @@ var App = function (_React$Component4) {
             imageLink: "https://images.unsplash.com/37/tEREUy1vSfuSu8LzTop3_IMG_2538.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
             imageText: "Alarm clock",
             overlayTextLine1: "Pomodoro Timer",
-            overlayTextLine2: "(React)" }),
+            overlayTextLine2: "(React, design)" }),
           React.createElement(ProjectTile, {
             projectLink: "#projectHexagon",
             imageLink: "https://images.pexels.com/photos/56876/queen-cup-honeycomb-honey-bee-new-queen-rearing-compartment-56876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
